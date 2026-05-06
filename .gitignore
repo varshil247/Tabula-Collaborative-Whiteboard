@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+client/.env
+client/.env.*
+server/.env
+
+# Build outputs
+dist/
+build/
+client/dist/
+server/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+client/coverage/
+server/coverage/
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
